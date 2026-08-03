@@ -1,0 +1,18 @@
+platformio    # only needed if using the CLI directly instead of the
+              # VS Code PlatformIO extension (which installs its own
+              # toolchain automatically and doesn't need this)
+ 
+fastapi
+uvicorn[standard]     # ASGI server to run FastAPI
+websockets            # rover<->backend and backend<->frontend real-time links
+pytest                # unit tests for arbiter logic
+python-dotenv         # local config without committing secrets
+ 
+
+opencv-python        # perception, compression pre-step, ArUco position tracking
+numpy
+torch                 # behavior cloning model
+pybullet              # simulation environment for sim-to-real work
+websockets            # to receive rover data and send decisions to backend
+pytest                # unit tests for perception/policy logic
+python-dotenv         # local config without committing secrets

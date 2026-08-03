@@ -1,0 +1,12 @@
+# brain/requirements.txt — dependencies for perception + policy only.
+# Not pinning exact versions yet, see note in the original combined file;
+# once brain/ has real code, install fresh and `pip freeze` to lock versions.
+ 
+opencv-python        # perception, compression pre-step, ArUco position tracking
+numpy
+torch                 # behavior cloning model
+pybullet              # simulation environment for sim-to-real work
+websockets            # to receive rover data and send decisions to backend
+pytest                # unit tests for perception/policy logic
+python-dotenv         # local config without committing secrets
+ 

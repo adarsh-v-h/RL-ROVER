@@ -1,0 +1,9 @@
+# backend/requirements.txt — dependencies for the arbiter + WebSocket
+# server only. No OpenCV, no torch, the backend never touches perception
+# or the policy directly, it just routes data and arbitrates commands.
+
+fastapi
+uvicorn[standard]     # ASGI server to run FastAPI
+websockets            # rover<->backend and backend<->frontend real-time links
+pytest                # unit tests for arbiter logic
+python-dotenv         # local config without committing secrets
