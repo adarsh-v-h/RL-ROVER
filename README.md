@@ -1,4 +1,4 @@
-# MPR_CS_26_T? — Self-Driving Rover (BCS586 Mini Project)
+# Self-Driving Rover
 
 A rover that learns to drive itself, trained on our own manual-driving data via
 behavior cloning, with OpenCV-based perception, a live web dashboard, and an
