@@ -87,15 +87,20 @@ npm run dev
 ```
 
 ## Contributing
-
-- Don't commit `.pio/`, Python virtual envs, `node_modules/`, or recorded
-  sensor/camera datasets, see `.gitignore`.
-- Don't commit real WiFi credentials, copy `firmware/secrets.h.example` to
-  `firmware/secrets.h` (gitignored) and fill in your own when testing against
-  real hardware.
-- Keep message/data schema changes (anything both firmware and backend depend
-  on) documented in `/docs`, since both sides need to stay in sync.
+See CONTRIBUTING.md
 
 ## Team
 
-Adarsh, Abhinav K, Rajasekhar, Hemachand
+Adarsh V H, Abhinav K, Lakkasani Venkata Rajasekhara Reddy, Hemachand
+
+## License
+
+Copyright (c) 2026 Adarsh V. H. and Contributors.
+
+This project is source-available for review and collaboration purposes.
+
+Viewing, cloning for local inspection, submitting issues, and contributing via pull requests are permitted.
+
+Reuse of any part of this code in another project is prohibited without prior written permission.
+
+See `LICENSE.md` for full details.
